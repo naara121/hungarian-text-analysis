@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1917</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>961</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vbox_1">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item>
+     <widget class="QLabel" name="title_1">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="themes_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>510</y>
+     <width>639</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>60</y>
+     <width>961</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vbox_2">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item>
+     <widget class="QLabel" name="title_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="themes_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>510</y>
+     <width>639</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prev_screen_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vissza az előző elemzésekhez</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_screen_button">
+   <property name="geometry">
+    <rect>
+     <x>1750</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>További elemzések</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>600</y>
+     <width>1921</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="pos_vbox"/>
+  </widget>
+  <widget class="QLabel" name="pos_pie_label_1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>540</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Az adott műben megtalálható szófajok százalékos eloszlása.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pos_pie_label_2">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>540</y>
+     <width>471</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Az adott műben megtalálható szófajok százalékos eloszlása.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pos_comp_label">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>980</y>
+     <width>411</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható szófajok pontos száma.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page_number_label_1">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="page_number_label_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

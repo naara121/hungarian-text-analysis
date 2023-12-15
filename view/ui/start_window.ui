@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="title_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>501</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Magyar szövegek statisztikai elemzése</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create_database_button">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>290</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Adatbázis elkészítése</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="download_works_button">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>180</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Művek letöltése</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_page_button">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>70</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tovább az elemzésekhez</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="prev_screen_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vissza az előző elemzésekhez</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>180</y>
+     <width>481</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="past_words_vbox"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>180</y>
+     <width>481</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="pos_number_vbox"/>
+  </widget>
+  <widget class="QLabel" name="past_words_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>650</y>
+     <width>411</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható jelen és múlt idejű szavak száma.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pos_number_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>680</y>
+     <width>441</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható egyes és többes számű szavak száma.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="root_button">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>400</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A mondatok gyökereinek
+statisztikái</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="subject_button">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>470</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A mondatok alanyainak
+ statisztikái</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tense_button">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>260</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Legtöbbször előforduló
+ jelen és múlt idejű  szavak</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="object_button">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>540</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A mondatok tárgyainak
+ statisztikái</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="grammatical_number_button">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>330</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Legtöbbször előforduló
+ egyes és többes számú szavak</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="prev_screen_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vissza az előző elemzésekhez</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>530</y>
+     <width>641</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="max_sentence_vbox"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>530</y>
+     <width>641</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="avg_sentences_vbox"/>
+  </widget>
+  <widget class="QLabel" name="all_words_label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>490</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható szavak száma.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sentences_label">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>490</y>
+     <width>371</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható mondatok száma.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="max_sentence_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>970</y>
+     <width>421</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható leghosszabb mondat hossza.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="avg_sentence_label">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>970</y>
+     <width>391</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>A két műben megtalálható mondatok átlagos hossza.</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>641</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="all_words_vbox"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>60</y>
+     <width>641</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="sentences_vbox"/>
+  </widget>
+  <widget class="QPushButton" name="next_screen_button">
+   <property name="geometry">
+    <rect>
+     <x>1750</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>További elemzések</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,13 @@
+nltk
+pandas
+scipy
+scikit-learn
+pathlib
+gensim
+PyMuPDF
+simplemma
+PyQt5
+matplotlib
+numpy
+seaborn
+requests
