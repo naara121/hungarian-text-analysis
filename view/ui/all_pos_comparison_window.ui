@@ -56,14 +56,14 @@
   <widget class="QPushButton" name="next_page_button">
    <property name="geometry">
     <rect>
-     <x>1770</x>
+     <x>1750</x>
      <y>20</y>
-     <width>131</width>
+     <width>151</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>Következő oldal</string>
+    <string>További elemzések</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
