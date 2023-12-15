@@ -164,7 +164,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Korrelációk kiszámításához adj meg egy számot 1 és 1000 között.</string>
+    <string>Korrelációk kiszámításához adj meg egy számot 10 és 1000 között.</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
