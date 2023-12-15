@@ -114,7 +114,7 @@ class StartWindow(QDialog):
             )
 
     def set_labels(self):
-        title_font = QFont("Arial", 16)
+        title_font = QFont("Arial", 14)
         title_font.setBold(True)
 
         self.title_label.setFont(title_font)

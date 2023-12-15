@@ -62,7 +62,7 @@ class AllPosComparisonWindow(QDialog):
         deletable.deleteLater()
 
     def set_labels(self):
-        work_title_font = QFont("Arial", 16)
+        work_title_font = QFont("Arial", 14)
         work_title_font.setBold(True)
 
         self.jokai_pie_label.setFont(work_title_font)
@@ -71,21 +71,21 @@ class AllPosComparisonWindow(QDialog):
         self.moricz_pie_label.setFont(work_title_font)
         self.moricz_pie_label.setAlignment(Qt.AlignCenter)
 
-        self.pos_comp_label.setFont(QFont("Arial", 12, italic=True))
+        self.pos_comp_label.setFont(QFont("Arial", 10, italic=True))
         self.pos_comp_label.setAlignment(Qt.AlignCenter)
 
     def set_all_words_label(self):
-        self.all_words_label.setFont(QFont("Arial", 12, italic=True))
+        self.all_words_label.setFont(QFont("Arial", 10, italic=True))
         self.all_words_label.setAlignment(Qt.AlignCenter)
         self.all_words_label.setWordWrap(True)
 
     def set_vocab_label(self):
-        self.vocab_label.setFont(QFont("Arial", 12, italic=True))
+        self.vocab_label.setFont(QFont("Arial", 10, italic=True))
         self.vocab_label.setAlignment(Qt.AlignCenter)
         self.vocab_label.setWordWrap(True)
 
     def set_word_cloud_label(self):
-        self.word_cloud_label.setFont(QFont("Arial", 12, italic=True))
+        self.word_cloud_label.setFont(QFont("Arial", 10, italic=True))
         self.word_cloud_label.setAlignment(Qt.AlignCenter)
         self.word_cloud_label.setWordWrap(True)
 

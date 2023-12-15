@@ -55,29 +55,29 @@ class GrammaticalNumberComparisonWindow(QDialog):
         self.create_grammatical_number_bar_plot(self._plur_figure_2, self._plur_canvas_2, self._book_2_numbers["Plur"], "slateblue")
 
     def set_labels(self):
-        title_font = QFont("Arial", 16)
+        title_font = QFont("Arial", 14)
         title_font.setBold(True)
 
         self.title_label.setFont(title_font)
         self.title_label.setWordWrap(True)
 
         self.sing_label_1.setText(f"{self._book_1.title} című műben, az egyes számú szavakból legtöbbszőr előforduló 10 szótő.")
-        self.sing_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.sing_label_1.setFont(QFont("Arial", 10, italic=True))
         self.sing_label_1.setAlignment(Qt.AlignCenter)
         self.sing_label_1.setWordWrap(True)
 
         self.sing_label_2.setText(f"{self._book_2.title} című műben, az egyes számú szavakból legtöbbszőr előforduló 10 szótő.")
-        self.sing_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.sing_label_2.setFont(QFont("Arial", 10, italic=True))
         self.sing_label_2.setAlignment(Qt.AlignCenter)
         self.sing_label_2.setWordWrap(True)
 
         self.plur_label_1.setText(f"{self._book_1.title} című műben, a többes számú szavakból legtöbbszőr előforduló 10 szótő.")
-        self.plur_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.plur_label_1.setFont(QFont("Arial", 10, italic=True))
         self.plur_label_1.setAlignment(Qt.AlignCenter)
         self.plur_label_1.setWordWrap(True)
 
         self.plur_label_2.setText(f"{self._book_2.title} című műben, a többes számú szavakból legtöbbszőr előforduló 10 szótő.")
-        self.plur_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.plur_label_2.setFont(QFont("Arial", 10, italic=True))
         self.plur_label_2.setAlignment(Qt.AlignCenter)
         self.plur_label_2.setWordWrap(True)
 

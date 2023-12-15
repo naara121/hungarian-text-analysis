@@ -85,19 +85,19 @@ class SentenceComparisonWindow(QDialog):
         self._widgets.setCurrentIndex(self._widgets.currentIndex() + 1)
 
     def set_labels(self):
-        self.all_words_label.setFont(QFont("Arial", 12, italic=True))
+        self.all_words_label.setFont(QFont("Arial", 10, italic=True))
         self.all_words_label.setAlignment(Qt.AlignCenter)
         self.all_words_label.setWordWrap(True)
 
-        self.sentences_label.setFont(QFont("Arial", 12, italic=True))
+        self.sentences_label.setFont(QFont("Arial", 10, italic=True))
         self.sentences_label.setAlignment(Qt.AlignCenter)
         self.sentences_label.setWordWrap(True)
 
-        self.avg_sentence_label.setFont(QFont("Arial", 12, italic=True))
+        self.avg_sentence_label.setFont(QFont("Arial", 10, italic=True))
         self.avg_sentence_label.setAlignment(Qt.AlignCenter)
         self.avg_sentence_label.setWordWrap(True)
 
-        self.max_sentence_label.setFont(QFont("Arial", 12, italic=True))
+        self.max_sentence_label.setFont(QFont("Arial", 10, italic=True))
         self.max_sentence_label.setAlignment(Qt.AlignCenter)
         self.max_sentence_label.setWordWrap(True)
 

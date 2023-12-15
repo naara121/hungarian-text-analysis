@@ -63,19 +63,19 @@ class PosWordsAndSimilarityWindow(QDialog):
 
     def set_labels(self):
         self.pos_label_1.setText(f"{self._book_1.title} című műben, az adott szófajban a 10 legtöbbször előforduló szó.")
-        self.pos_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.pos_label_1.setFont(QFont("Arial", 10, italic=True))
         self.pos_label_1.setAlignment(Qt.AlignCenter)
         self.pos_label_1.setWordWrap(True)
 
         self.pos_label_2.setText(f"{self._book_2.title} című műben, az adott szófajban a 10 legtöbbször előforduló szó.")
-        self.pos_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.pos_label_2.setFont(QFont("Arial", 10, italic=True))
         self.pos_label_2.setAlignment(Qt.AlignCenter)
         self.pos_label_2.setWordWrap(True)
 
-        bold_font = QFont("Arial", 12)
+        bold_font = QFont("Arial", 10)
         bold_font.setBold(True)
 
-        self.corr_text_label.setFont(QFont("Arial", 12, italic=True))
+        self.corr_text_label.setFont(QFont("Arial", 10, italic=True))
         self.corr_text_label.setAlignment(Qt.AlignCenter)
 
         self.corr_label.setFont(bold_font)
@@ -85,13 +85,13 @@ class PosWordsAndSimilarityWindow(QDialog):
         self.similarity_label.setFont(bold_font)
         self.sim_value_label.setFont(bold_font)
 
-        self.pearson_label.setFont(QFont("Arial", 12))
-        self.spearman_label.setFont(QFont("Arial", 12))
-        self.kendall_label.setFont(QFont("Arial", 12))
-        self.cosine_label.setFont(QFont("Arial", 12))
-        self.jaccard_label.setFont(QFont("Arial", 12))
+        self.pearson_label.setFont(QFont("Arial", 10))
+        self.spearman_label.setFont(QFont("Arial", 10))
+        self.kendall_label.setFont(QFont("Arial", 10))
+        self.cosine_label.setFont(QFont("Arial", 10))
+        self.jaccard_label.setFont(QFont("Arial", 10))
 
-        bold_italic_font = QFont("Arial", 12, italic=True)
+        bold_italic_font = QFont("Arial", 10, italic=True)
         bold_italic_font.setBold(True)
 
         self.pearson_p_value.setFont(bold_italic_font)
@@ -188,14 +188,14 @@ class PosWordsAndSimilarityWindow(QDialog):
         self.kendall_p_value.setText(str(round(kendall[1], 2)))
 
     def set_cosine_similarity(self):
-        bold_italic_font = QFont("Arial", 12, italic=True)
+        bold_italic_font = QFont("Arial", 10, italic=True)
         bold_italic_font.setBold(True)
 
         self.cosine_value_label.setText(str(round(self._book_controller.get_cosine_similarity(self._book_1, self._book_2), 2)))
         self.cosine_value_label.setFont(bold_italic_font)
 
     def set_jaccard_similarity(self):
-        bold_italic_font = QFont("Arial", 12, italic=True)
+        bold_italic_font = QFont("Arial", 10, italic=True)
         bold_italic_font.setBold(True)
 
         self.jaccard_value_label.setText(str(round(self._book_controller.get_jaccard_similarity(self._book_1.content, self._book_2.content), 2)))

@@ -51,11 +51,11 @@ class FifthCompareWorksWindow(QDialog):
         self.create_pos_number_comparison_bar_plot(self._numbers_figure, self._numbers_canvas)
 
     def set_labels(self):
-        self.past_words_label.setFont(QFont("Arial", 12, italic=True))
+        self.past_words_label.setFont(QFont("Arial", 10, italic=True))
         self.past_words_label.setAlignment(Qt.AlignCenter)
         self.past_words_label.setWordWrap(True)
 
-        self.pos_number_label.setFont(QFont("Arial", 12, italic=True))
+        self.pos_number_label.setFont(QFont("Arial", 10, italic=True))
         self.pos_number_label.setAlignment(Qt.AlignCenter)
         self.pos_number_label.setWordWrap(True)
 

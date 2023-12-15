@@ -86,34 +86,34 @@ class PosComparisonWindow(QDialog):
         self.title_2.setFont(title_font)
         self.title_2.setAlignment(Qt.AlignCenter)
 
-        self.pos_pie_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.pos_pie_label_1.setFont(QFont("Arial", 10, italic=True))
         self.pos_pie_label_1.setAlignment(Qt.AlignCenter)
         self.pos_pie_label_1.setWordWrap(True)
 
-        self.pos_pie_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.pos_pie_label_2.setFont(QFont("Arial", 10, italic=True))
         self.pos_pie_label_2.setAlignment(Qt.AlignCenter)
         self.pos_pie_label_2.setWordWrap(True)
 
-        self.pos_comp_label.setFont(QFont("Arial", 12, italic=True))
+        self.pos_comp_label.setFont(QFont("Arial", 10, italic=True))
         self.pos_comp_label.setAlignment(Qt.AlignCenter)
         self.pos_comp_label.setWordWrap(True)
 
         self.page_number_label_1.setText(f"A mű összesen {self._book_1.page_number} oldalból áll.")
-        self.page_number_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.page_number_label_1.setFont(QFont("Arial", 10, italic=True))
         self.page_number_label_1.setAlignment(Qt.AlignCenter)
 
         self.page_number_label_2.setText(f"A mű összesen {self._book_2.page_number} oldalból áll.")
-        self.page_number_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.page_number_label_2.setFont(QFont("Arial", 10, italic=True))
         self.page_number_label_2.setAlignment(Qt.AlignCenter)
 
     def set_themes(self):
         self.themes_1.setText(f"Az adott mű témái: {self._book_1.themes}")
-        self.themes_1.setFont(QFont("Arial", 12, italic=True))
+        self.themes_1.setFont(QFont("Arial", 10, italic=True))
         self.themes_1.setAlignment(Qt.AlignCenter)
         self.themes_1.setWordWrap(True)
 
         self.themes_2.setText(f"Az adott mű témái: {self._book_2.themes}")
-        self.themes_2.setFont(QFont("Arial", 12, italic=True))
+        self.themes_2.setFont(QFont("Arial", 10, italic=True))
         self.themes_2.setAlignment(Qt.AlignCenter)
         self.themes_2.setWordWrap(True)
 

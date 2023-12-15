@@ -68,12 +68,12 @@ class AllTopWordsWindow(QDialog):
 
     def set_labels(self):
         self.top_word_label_1.setText("Jókai Mór összes feldolgozott művében legtöbbszőr előforduló 20 szótő.")
-        self.top_word_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.top_word_label_1.setFont(QFont("Arial", 10, italic=True))
         self.top_word_label_1.setAlignment(Qt.AlignCenter)
         self.top_word_label_1.setWordWrap(True)
 
         self.top_word_label_2.setText("Móricz Zsigmond összes feldolgozott művében legtöbbszőr előforduló 20 szótő.")
-        self.top_word_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.top_word_label_2.setFont(QFont("Arial", 10, italic=True))
         self.top_word_label_2.setAlignment(Qt.AlignCenter)
         self.top_word_label_2.setWordWrap(True)
 

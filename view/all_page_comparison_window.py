@@ -63,27 +63,27 @@ class BookComparisonWindow(QDialog):
 
     def set_labels(self):
         self.scatter_label.setText("Jókai Mór és Móricz Zsigmond műveinek eloszlása az oldalszámuk alapján.")
-        self.scatter_label.setFont(QFont("Arial", 12, italic=True))
+        self.scatter_label.setFont(QFont("Arial", 10, italic=True))
         self.scatter_label.setAlignment(Qt.AlignCenter)
         self.scatter_label.setWordWrap(True)
 
         self.page_number_label.setText("Jókai Mór és Móricz Zsigmond összes oldalának száma.")
-        self.page_number_label.setFont(QFont("Arial", 12, italic=True))
+        self.page_number_label.setFont(QFont("Arial", 10, italic=True))
         self.page_number_label.setAlignment(Qt.AlignCenter)
         self.page_number_label.setWordWrap(True)
 
         self.short_label.setText("Legrövidebb művek.")
-        self.short_label.setFont(QFont("Arial", 12, italic=True))
+        self.short_label.setFont(QFont("Arial", 10, italic=True))
         self.short_label.setAlignment(Qt.AlignCenter)
         self.short_label.setWordWrap(True)
 
         self.long_label.setText("Leghosszabb művek.")
-        self.long_label.setFont(QFont("Arial", 12, italic=True))
+        self.long_label.setFont(QFont("Arial", 10, italic=True))
         self.long_label.setAlignment(Qt.AlignCenter)
         self.long_label.setWordWrap(True)
 
         self.avg_label.setText("Művek átlagos hossza a két írónál.")
-        self.avg_label.setFont(QFont("Arial", 12, italic=True))
+        self.avg_label.setFont(QFont("Arial", 10, italic=True))
         self.avg_label.setAlignment(Qt.AlignCenter)
         self.avg_label.setWordWrap(True)
 

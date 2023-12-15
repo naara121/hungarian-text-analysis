@@ -60,7 +60,7 @@ class RootDependencyRelationWindow(QDialog):
         self.create_root_avg_bar_plot(self._avg_figure, self._avg_canvas, self._relation_1[1], self._relation_2[1])
 
     def set_labels(self):
-        title_font = QFont("Arial", 16)
+        title_font = QFont("Arial", 14)
         title_font.setBold(True)
 
         self.title_label.setText("A mondatok gyökerének előfordulása")
@@ -68,17 +68,17 @@ class RootDependencyRelationWindow(QDialog):
         self.title_label.setWordWrap(True)
 
         self.relation_label_1.setText(f"{self._book_1.title} című műben, a mondatok gyökere közül legtöbbszőr előforduló 10 szótő.")
-        self.relation_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.relation_label_1.setFont(QFont("Arial", 10, italic=True))
         self.relation_label_1.setAlignment(Qt.AlignCenter)
         self.relation_label_1.setWordWrap(True)
 
         self.relation_label_2.setText(f"{self._book_2.title} című műben, a mondatok gyökere közül legtöbbszőr előforduló 10 szótő.")
-        self.relation_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.relation_label_2.setFont(QFont("Arial", 10, italic=True))
         self.relation_label_2.setAlignment(Qt.AlignCenter)
         self.relation_label_2.setWordWrap(True)
 
         self.avg_label.setText("A két mű mondataiban átlagosan hanyadik szó a mondat gyökere.")
-        self.avg_label.setFont(QFont("Arial", 12, italic=True))
+        self.avg_label.setFont(QFont("Arial", 10, italic=True))
         self.avg_label.setAlignment(Qt.AlignCenter)
         self.avg_label.setWordWrap(True)
 

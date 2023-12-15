@@ -109,29 +109,29 @@ class AllSentenceComparisonWindow(QDialog):
         self._widgets.setCurrentIndex(self._widgets.currentIndex() + 1)
 
     def set_labels(self):
-        title_font = QFont("Arial", 12)
+        title_font = QFont("Arial", 10)
         title_font.setBold(True)
 
-        self.compare_label.setFont(QFont("Arial", 12, italic=True))
+        self.compare_label.setFont(QFont("Arial", 10, italic=True))
         self.compare_label.setAlignment(Qt.AlignCenter)
 
-        self.all_words_label.setFont(QFont("Arial", 12, italic=True))
+        self.all_words_label.setFont(QFont("Arial", 10, italic=True))
         self.all_words_label.setAlignment(Qt.AlignCenter)
         self.all_words_label.setWordWrap(True)
 
-        self.vocab_label.setFont(QFont("Arial", 12, italic=True))
+        self.vocab_label.setFont(QFont("Arial", 10, italic=True))
         self.vocab_label.setAlignment(Qt.AlignCenter)
         self.vocab_label.setWordWrap(True)
 
-        self.sentences_label.setFont(QFont("Arial", 12, italic=True))
+        self.sentences_label.setFont(QFont("Arial", 10, italic=True))
         self.sentences_label.setAlignment(Qt.AlignCenter)
         self.sentences_label.setWordWrap(True)
 
-        self.avg_sentence_label.setFont(QFont("Arial", 12, italic=True))
+        self.avg_sentence_label.setFont(QFont("Arial", 10, italic=True))
         self.avg_sentence_label.setAlignment(Qt.AlignCenter)
         self.avg_sentence_label.setWordWrap(True)
 
-        self.max_sentence_label.setFont(QFont("Arial", 12, italic=True))
+        self.max_sentence_label.setFont(QFont("Arial", 10, italic=True))
         self.max_sentence_label.setAlignment(Qt.AlignCenter)
         self.max_sentence_label.setWordWrap(True)
 
@@ -141,17 +141,17 @@ class AllSentenceComparisonWindow(QDialog):
         self.less_than_100_label.setFont(title_font)
         self.more_than_100_label.setFont(title_font)
 
-        self.jokai_label.setFont(QFont("Arial", 12))
-        self.jokai_less_than_10_label.setFont(QFont("Arial", 12))
-        self.jokai_less_than_50_label.setFont(QFont("Arial", 12))
-        self.jokai_less_than_100_label.setFont(QFont("Arial", 12))
-        self.jokai_more_than_100_label.setFont(QFont("Arial", 12))
+        self.jokai_label.setFont(QFont("Arial", 10))
+        self.jokai_less_than_10_label.setFont(QFont("Arial", 10))
+        self.jokai_less_than_50_label.setFont(QFont("Arial", 10))
+        self.jokai_less_than_100_label.setFont(QFont("Arial", 10))
+        self.jokai_more_than_100_label.setFont(QFont("Arial", 10))
 
-        self.moricz_label.setFont(QFont("Arial", 12))
-        self.moricz_less_than_10_label.setFont(QFont("Arial", 12))
-        self.moricz_less_than_50_label.setFont(QFont("Arial", 12))
-        self.moricz_less_than_100_label.setFont(QFont("Arial", 12))
-        self.moricz_more_than_100_label.setFont(QFont("Arial", 12))
+        self.moricz_label.setFont(QFont("Arial", 10))
+        self.moricz_less_than_10_label.setFont(QFont("Arial", 10))
+        self.moricz_less_than_50_label.setFont(QFont("Arial", 10))
+        self.moricz_less_than_100_label.setFont(QFont("Arial", 10))
+        self.moricz_more_than_100_label.setFont(QFont("Arial", 10))
     def init_work_combo_boxes(self):
         all_titles = self._book_controller.get_all_book_titles("jokai")
         all_titles.extend(self._book_controller.get_all_book_titles("moricz"))

@@ -55,29 +55,29 @@ class TenseComparisonWindow(QDialog):
         self.create_grammatical_tense_bar_plot(self._pres_figure_2, self._pres_canvas_2, self._book_2_tenses["Pres"], "slateblue")
 
     def set_labels(self):
-        title_font = QFont("Arial", 16)
+        title_font = QFont("Arial", 14)
         title_font.setBold(True)
 
         self.title_label.setFont(title_font)
         self.title_label.setWordWrap(True)
 
         self.past_label_1.setText(f"{self._book_1.title} című műben, a múlt idejű szavakból legtöbbszőr előforduló 10 szótő.")
-        self.past_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.past_label_1.setFont(QFont("Arial", 10, italic=True))
         self.past_label_1.setAlignment(Qt.AlignCenter)
         self.past_label_1.setWordWrap(True)
 
         self.past_label_2.setText(f"{self._book_2.title} című műben, a múlt idejű szavakból legtöbbszőr előforduló 10 szótő.")
-        self.past_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.past_label_2.setFont(QFont("Arial", 10, italic=True))
         self.past_label_2.setAlignment(Qt.AlignCenter)
         self.past_label_2.setWordWrap(True)
 
         self.pres_label_1.setText(f"{self._book_1.title} című műben, a jelen idejű szavakból legtöbbszőr előforduló 10 szótő.")
-        self.pres_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.pres_label_1.setFont(QFont("Arial", 10, italic=True))
         self.pres_label_1.setAlignment(Qt.AlignCenter)
         self.pres_label_1.setWordWrap(True)
 
         self.pres_label_2.setText(f"{self._book_2.title} című műben, a jelen idejű szavakból legtöbbszőr előforduló 10 szótő.")
-        self.pres_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.pres_label_2.setFont(QFont("Arial", 10, italic=True))
         self.pres_label_2.setAlignment(Qt.AlignCenter)
         self.pres_label_2.setWordWrap(True)
 

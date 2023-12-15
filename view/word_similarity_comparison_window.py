@@ -79,13 +79,13 @@ class WordSimilarityComparisonWindow(QDialog):
     def set_labels(self):
         self.word_similarity_label_1.setText(
             f"{self._book_1.title} című mű szövegkörnyezetében, az adott szó körül előforduló szavak.")
-        self.word_similarity_label_1.setFont(QFont("Arial", 12, italic=True))
+        self.word_similarity_label_1.setFont(QFont("Arial", 10, italic=True))
         self.word_similarity_label_1.setAlignment(Qt.AlignCenter)
         self.word_similarity_label_1.setWordWrap(True)
 
         self.word_similarity_label_2.setText(
             f"{self._book_2.title} című mű szövegkörnyezetében, az adott szó körül előforduló szavak.")
-        self.word_similarity_label_2.setFont(QFont("Arial", 12, italic=True))
+        self.word_similarity_label_2.setFont(QFont("Arial", 10, italic=True))
         self.word_similarity_label_2.setAlignment(Qt.AlignCenter)
         self.word_similarity_label_2.setWordWrap(True)
 
