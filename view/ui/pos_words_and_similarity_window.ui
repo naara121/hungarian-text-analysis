@@ -157,9 +157,9 @@
   <widget class="QLabel" name="corr_text_label">
    <property name="geometry">
     <rect>
-     <x>1208</x>
+     <x>1198</x>
      <y>150</y>
-     <width>471</width>
+     <width>500</width>
      <height>21</height>
     </rect>
    </property>
